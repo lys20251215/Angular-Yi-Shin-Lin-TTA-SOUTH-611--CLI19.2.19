@@ -32,6 +32,7 @@
               }
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -88,6 +89,7 @@
               {
                 "glob": "**/*",
                 "input": "public"
+                // 絕對路徑
               }
             ],
             "styles": [
