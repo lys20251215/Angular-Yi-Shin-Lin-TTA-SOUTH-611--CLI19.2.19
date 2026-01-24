@@ -89,7 +89,6 @@
               {
                 "glob": "**/*",
                 "input": "public"
-                // 絕對路徑
               }
             ],
             "styles": [

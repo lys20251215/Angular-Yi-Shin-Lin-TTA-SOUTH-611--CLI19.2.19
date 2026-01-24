@@ -10,26 +10,97 @@
   <!--  -->
 </head>
 <!-- 練習題：做一個登入畫面 -->
-<body>
+<body" display: flex; justify-content: center; align-items: center; height: 100vh;>
   <app-root></app-root>
+<!-- Demo0 自我介紹與履歷網站-->
+<img src="/0-yi-shin.PNG" alt="My logo" width="100" height="130">
 
-<img style="width: 320x; height: 180px; margin-right: 24px" src= "IMG_2453.jpg">
+<h1 >林易信(Yi-Shin Lin)</h1>
+<main>
+  大家好，我是一個正在學習ＨＴＭＬ的初學者<br>
+</main>
+
+
+<!-- 我想從左到右做一個下拉式選單 -->
+<h2>About us</h2>
+<ul><!-- 黑點 -->
+  <li>🧑‍🎓學習網頁設計</li>
+  <li>🀄️我喜歡跟朋友遊玩國粹『臺灣16張麻將』</li>
+  <li>🧑🏻‍🏫閱讀全國法規資料庫</li>
+</ul>
+<h2>Contract me</h2>
+Email：<a href="mailto:lys20251212&#64;gmail.com">lys20251212&#64;gmail.com</a>
+<div>電話：0905-602-723</div>
+喜歡的網站：<a href="https://aws.amazon.com/tw/" target="_blank">AWS Ampilfy</a>
+<!-- Todo:AWS Ampilfy,$5/M || EC2+S3 20$/M -->
+ <h1>My Project</h1>
+<table border="1">
+<tr>
+  <th>Project Name</th>
+  <th>研究動機</th>
+  <th>實際用途</th>
+</tr>
+
+<tr>
+  <td>Sucheng Web Form</td>
+  <td>CRM系統</td>
+  <td>降低與客戶彼此的溝通成本</td>
+</tr>
+<!-- Ctrl+S儲存檔案,ASUS VG249Q輸出結果-->
+<tr>
+  <td>AngularTicket</td>
+  <td>訂票系統</td>
+  <td>送給心愛的家人</td>
+</tr>
+</table>
+<h1>Leave me a message</h1>
+<div>
+稱呼：<input type="text" name="" id="">
+</div>
+留言：<textarea name="" rows="1" cols="25" placeholder="">請在此輸入您遇見的問題</textarea>
+<!-- row=長,  cols=寬 -->
+
+<!-- <input type="checkbox" name="" id="">  checkbox 多選框 -->
+
+<!-- JavaScript -->
+<button class="bntCss" onclick="showAlert()">送出!</button>
+<style>
+  .bntCss{
+    color: red;
+  }
+</style>
+
+<script>
+  function showAlert(){
+    alert("感謝您的留言，我會盡快回覆您!");
+  }
+</script>
+
+
+
+
+
+<!-- <img style="width: 320x; height: 180px; margin-right: 24px" src= "IMG_2453.jpg">
 <img style="width: 320px; height: 180px;" src= "IMG_1090727.jpg">
 <div style="width: 524px; height: 100px; background-color: aqua;
 margin-top: 36px; margin-bottom: 36px;"></div>
 <input style="height:20px;">
 <button style="width:120px;height: 18px;px; margin-left: 18px;">button</button >
-<a href="https://info.tainan.gov.tw/News_Content.aspx?n=25742&s=7698452#" target="_blank">台南市政府</a>
-<div style="width: 300px; height: 300px; background-color:blue; text-align: center; padding: 5px"> <!-- 我希望我這個div裡面的內容都置中,標籤與標籤之間的距離使用'padding' -->
-<h2 style="color: white;">登入</h2>
+<a href="https://info.tainan.gov.tw/News_Content.aspx?n=25742&s=7698452#" target="_blank">台南市政府</a> -->
+<!-- <div style="width: 300px; height: 300px; background-color:blue; text-align: center; padding: 5px">  -->
+  <!-- 我希望我這個div裡面的內容都置中,標籤與標籤之間的距離使用'padding' -->
+<!-- <h2 style="color: white;">登入</h2> -->
                                                       <!--圓弧效果👇  -->
-<label style="color:white">帳號：</label><input step="border-radius: 15px" style="width: 150px;"><!-- shift+option+under=快速複製一橫列程式碼至下一橫行 -->
-<br><br><!-- 換行 -->
-<label style="color:white">密碼：</label><input step="border-radius" type="password" style="width: 150px;"><!-- shift+option+under=快速複製一橫列程式碼至下一橫行 -->
-<br><br>
-<button style="color:white; background-color: red; border-radius: 15px; width: 68%;">登入</button>
+<!-- <label style="color:white">帳號：</label><input step="border-radius: 15px" style="width: 150px;"> -->
+<!-- shift+option+under=快速複製一橫列程式碼至下一橫行 -->
+<!-- <br><br> -->
+<!-- 換行 -->
+<!-- <label style="color:white">密碼：</label><input step="border-radius" type="password" style="width: 150px;"> -->
+<!-- shift+option+under=快速複製一橫列程式碼至下一橫行 -->
+<!-- <br><br>
+<button style="color:white; background-color: red; border-radius: 15px; width: 68%;">登入</button> -->
 <!-- 設定登入按鈕大小的時候建議是[%]or[piexl] -->
-</div>
+<!-- </div> -->
 <!--  9.CSS 使用者互動-->
 </body>
 </html>
